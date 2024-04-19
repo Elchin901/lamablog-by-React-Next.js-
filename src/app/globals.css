@@ -27,8 +27,42 @@ a {
 }
 
 .wrapper{
-  max-width: 1182px;
+  max-width: 1282px;
   margin-left: auto;
   margin-right: auto;
   background-color: violet;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+@media screen and (max-width:1282px) {
+  .wrapper{
+    max-width: 1082px;
+  }
+}
+@media screen and (max-width:1082px) {
+  .wrapper{
+    max-width: 900px;
+  }
+}
+@media screen and (max-width:900px) {
+  .wrapper{
+    max-width: 768px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .wrapper{
+    max-width: 640px;
+  
+  }
+}
+
+
+@media screen and (max-width:640px) {
+  .wrapper{
+    max-width: 475px;
+}
 }

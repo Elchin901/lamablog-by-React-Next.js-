@@ -24,4 +24,37 @@
     flex: 1;
     align-items: center;
 }
+@media screen and (max-width : 900px){
+    .logo{
+        font-size:32px;
+    }
+    .links{
+        font-size: 18px;
+        gap:15px;
+    }
+}
+
+@media screen and (max-width : 900px){
+    .social{
+        display: none;
+    }
+    .logo{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width : 768px){
+    .logo{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width : 600px){
+    .links{
+        justify-content: flex-end;
+    }
+    .link{
+        display: none;
+    }
+    
+}
 

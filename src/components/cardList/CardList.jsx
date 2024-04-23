@@ -1,7 +1,12 @@
 import React from 'react'
+import { Pagination } from '../pagination/Pagination'
+import styles from "./cardList.module.css"
 
 export const CardList = () => {
   return (
-    <div>CardList</div>
+    <div className={styles.container}>
+        Cardlist
+        <Pagination/>
+    </div>
   )
 }

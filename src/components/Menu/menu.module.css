@@ -1,5 +1,6 @@
 .container{
     flex: 2;
+    margin-top: 30px;
 }
 .subtitle{
     color: gray;
